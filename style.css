@@ -14,7 +14,7 @@ body{
 }
 
 nav{
-    height: 100px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -26,9 +26,9 @@ nav{
 }
 hr{
     height: 2px;
-    width: 50%;
+    width: 80%;
     color:grey;
-    margin-inline: 50px;
+    margin-inline-start: 50px;
     opacity: 40%;
 }
 #logo{
@@ -40,18 +40,77 @@ hr{
 #navigation{
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(18px);
-
+    backdrop-filter: blur(15px);
+    padding-inline-start: 50px;
 }
 ul{
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-around;
     list-style-type: none;
-    padding-top: 40px;
+    padding-top: 35px;
 }
 li{
+    color: rgb(206, 206, 206);
+    font-weight: 50;
+    padding-inline: 20px;
+}
+.number{
+    font-weight: 900;
     color: white;
+    padding-inline-end: 5px;
+}
 
+#container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+#title{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+#title h3{
+margin-top: 50px;
+font-weight: 100;
+font-size: 1.3em;
+padding-inline: 190px;
+
+}
+#title h1{
+    margin-top: 30px;
+    font-weight: 100;
+    font-size: 8em;
+    padding-inline: 190px;
+
+
+}
+#title p{
+    margin-top: 30px;
+    font-weight: 100;
+    padding-inline: 190px;
+
+}
+#explore{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 100px;
+    right: 250px;
+    
+}
+h2{
+    color: black;
+    font-weight: 100;
 }
