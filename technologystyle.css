@@ -82,7 +82,6 @@ li.selected{
     display: flex;
     flex-direction: row;
     position: relative;
-
 }
 #title{
     width: 50%;
@@ -106,22 +105,22 @@ margin-bottom: -50px;
     margin-top: 10px;
     font-weight: 100;
     font-size: 56px;
-    padding-left: 150px;
+    padding-left: 280px;
     overflow: visible;
     font-family: 'Bellefair', serif;
 }
 #title h2{
-    padding-left: 150px;
+    padding-left: 280px;
     color: grey;
     font-family: 'Bellefair', serif;
-    font-size: 38px;
+    font-size: 16px;
 
 }
 #title p{
     margin-top: 20px;
     font-weight: 100;
     font-size: 16px;
-    padding-inline: 150px;
+    padding-left: 280px;
     line-height: 30px;
     color: #D0D6F9;
     letter-spacing: 2.7px;
@@ -142,22 +141,37 @@ a {
 }
 #change{
     
-    width: 150px;
-    height: 40px;
+    width: 100px;
+    height: 300px;
     position: absolute;
-    left: 150px;
-    bottom: 80px;
+    left: 140px;
+    bottom: 150px;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 .bulle1, .bulle2, .bulle3, .bulle4{
-    height: 15px;
-    width: 15px;
-    border-radius: 15px;
-    background-color: rgb(66, 66, 66);
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    border: 1px solid grey;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: 'Bellefair', serif;
+
 }
 #select{
     background-color: #FFFFFF;
+    color: black;
+}
+.launch{
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    right: 0px;
+    object-fit: cover;
 }
