@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Barlow Condensed', sans-serif;
+    
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-inline-start: 50px;
+    margin-top: 50px;
+    
+}
+hr{
+    height: 2px;
+    width: 80%;
+    color:grey;
+    margin-inline-start: 50px;
+    opacity: 40%;
+}
+#logo{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#navigation{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(15px);
+    padding-inline-start: 50px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    height: 100%;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 50;
+    padding-inline: 20px;
+    height: 100%;
+    letter-spacing: 2.7px;
+
+}
+li:hover{
+    border-bottom: 2px solid rgba(170, 169, 169, 0.836);
+}
+li.selected{
+    border-bottom: 2px solid white;
+}
+.number{
+    font-weight: 900;
+    color: white;
+    padding-inline-end: 10px;
+}
+
+#container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+#title{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+h3{
+padding-top: 50px;
+font-weight: 100;
+font-size: 28px;
+padding-inline: 150px;
+letter-spacing: 4.75px;
+color: #D0D6F9;
+margin-bottom: -50px;
+
+}
+#title h1{
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 56px;
+    padding-left: 150px;
+    overflow: visible;
+    font-family: 'Bellefair', serif;
+}
+#title h2{
+    padding-left: 150px;
+    color: grey;
+    font-family: 'Bellefair', serif;
+    font-size: 38px;
+
+}
+#title p{
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 16px;
+    padding-inline: 150px;
+    line-height: 30px;
+    color: #D0D6F9;
+    letter-spacing: 2.7px;
+
+}
+
+h2{
+    color: black;
+    font-weight: 100;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#change{
+    
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 150px;
+    bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.bulle1, .bulle2, .bulle3, .bulle4{
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    background-color: rgb(66, 66, 66);
+}
+#select{
+    background-color: #FFFFFF;
+}
