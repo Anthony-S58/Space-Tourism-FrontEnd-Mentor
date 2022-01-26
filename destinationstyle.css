@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background-image: url(space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
+    background-image: url(space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,6 +82,7 @@ li.selected{
     display: flex;
     flex-direction: row;
     position: relative;
+    justify-content: flex-end;
 }
 #title{
     width: 50%;
@@ -91,19 +92,34 @@ li.selected{
     flex-direction: column;
     color: white;
 }
+.moon {
+    position: absolute;
+    left: 150px;
+    top: 120px;
+}
 #title h3{
-margin-top: 50px;
+margin-top:30px;
 font-weight: 100;
 font-size: 28px;
 padding-inline: 150px;
 letter-spacing: 4.75px;
 color: #D0D6F9;
+position: absolute;
+left: 0px;
+top: 0px;
 
 }
+#nav2{
+    width: 330px;
+    height: 40px;
+    position: absolute;
+    right: 300px;
+    top: 70px;
+}
 #title h1{
-    margin-top: 30px;
+    margin-top: 100px;
     font-weight: 100;
-    font-size: 150px;
+    font-size: 100px;
     padding-inline: 150px;
     font-family: 'Bellefair', serif;
 
@@ -111,6 +127,7 @@ color: #D0D6F9;
 }
 #title p{
     margin-top: 20px;
+    margin-bottom: 30px;
     font-weight: 100;
     font-size: 16px;
     padding-inline: 150px;
@@ -119,26 +136,7 @@ color: #D0D6F9;
     letter-spacing: 2.7px;
 
 }
-#explore{
-    width: 250px;
-    height: 250px;
-    border-radius: 250px;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 100px;
-    right: 200px; 
-    font-size: 1.2em;
-    font-family: 'Bellefair', serif;
 
-}
-#explore:hover{
-    cursor: pointer;
-    box-shadow: 0px 0px 30px 30px rgb(48, 48, 48);
-
-}
 h2{
     color: black;
     font-weight: 100;
@@ -150,4 +148,40 @@ a {
 :visited{
     color: #FFFFFF;
     text-decoration: none;
+}
+#separate{
+    color: grey;
+    width: 470px;
+    height: 1px;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    right: 140px;
+    bottom: 150px;
+}
+
+#disttrav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 150px;
+    padding-inline-start: 150px;
+    padding-top: 30px;
+}
+#disttitle{
+    font-size: 14px;
+    color: grey;
+    letter-spacing: 2.35px;
+}
+#travtitle{
+    font-size: 14px;
+    color: grey;
+    letter-spacing: 2.35px;
+}
+#distkm{
+    margin-top: 20px;
+    font-size: 28px
+}
+#travtime{
+    margin-top: 20px;
+    font-size: 28px    
 }
