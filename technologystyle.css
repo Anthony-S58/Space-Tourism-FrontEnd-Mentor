@@ -151,7 +151,7 @@ a {
     flex-direction: column;
     align-items: center;
 }
-.bulle1, .bulle2, .bulle3, .bulle4{
+.bulle1, .bulle2, .bulle3{
     height: 80px;
     width: 80px;
     border-radius: 80px;
@@ -163,6 +163,9 @@ a {
     font-size: 28px;
     font-family: 'Bellefair', serif;
 
+}
+.bulle2:hover, .bulle3:hover{
+    border: 1px solid #FFFFFF;
 }
 #select{
     background-color: #FFFFFF;

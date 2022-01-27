@@ -166,6 +166,9 @@ a {
     border-radius: 15px;
     background-color: rgb(66, 66, 66);
 }
+.bulle2:hover, .bulle3:hover, .bulle4:hover{
+    background-color: #9b9a9ac7;
+}
 #select{
     background-color: #FFFFFF;
 }
