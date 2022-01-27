@@ -67,7 +67,7 @@ li{
 li:hover{
     border-bottom: 2px solid rgba(170, 169, 169, 0.836);
 }
-li.selected{
+#limoon, li.selected{
     border-bottom: 2px solid white;
 }
 .number{
