@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-image: url(space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg);
     background-position: center;
@@ -63,6 +63,9 @@ li{
     height: 100%;
     letter-spacing: 2.7px;
 
+}
+#planet{
+    padding-top: 50px;
 }
 li:hover{
     border-bottom: 2px solid rgba(170, 169, 169, 0.836);
@@ -173,8 +176,8 @@ a {
     height: 1px;
     border-bottom: 1px solid grey;
     position: absolute;
-    right: 140px;
-    bottom: 150px;
+    right: 150px;
+    bottom: 100px;
 }
 
 #disttrav{

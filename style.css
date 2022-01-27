@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-image: url(space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
     background-position: center;
