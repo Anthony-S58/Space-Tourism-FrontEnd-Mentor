@@ -99,7 +99,14 @@ li.selected{
     position: absolute;
     right: 200px;
     bottom: -150px;
-
+}
+.mark, .victor, .anousheh{
+    height: 550px;
+    width: 450px;
+    position: absolute;
+    right: 200px;
+    bottom: -150px;
+    display: none;   
 }
 h3{
 padding-top: 50px;
@@ -167,7 +174,7 @@ a {
     border-radius: 15px;
     background-color: rgb(66, 66, 66);
 }
-.bulle2:hover, .bulle3:hover, .bulle4:hover{
+.bulle1:hover, .bulle2:hover, .bulle3:hover, .bulle4:hover{
     background-color: #9b9a9ac7;
 }
 #select{
