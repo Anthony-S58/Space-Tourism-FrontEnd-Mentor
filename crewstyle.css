@@ -171,7 +171,7 @@ a {
     align-items: center;
 }
 .bulle1:hover, .bulle2:hover, .bulle3:hover, .bulle4:hover{
-    background-color: rgba(126, 126, 126, 0.726)!important;
+    background-color: rgba(161, 157, 157, 0.979)!important;
 }
 .bulle1, .bulle2, .bulle3, .bulle4{
     height: 15px;
