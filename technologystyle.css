@@ -165,10 +165,10 @@ a {
     font-family: 'Bellefair', serif;
 
 }
-.bulle2:hover, .bulle3:hover{
+.bulle1:hover, .bulle2:hover, .bulle3:hover{
     border: 1px solid #FFFFFF;
 }
-#select{
+.bulle1{
     background-color: #FFFFFF;
     color: black;
 }
