@@ -170,14 +170,17 @@ a {
     flex-direction: row;
     align-items: center;
 }
+.bulle1:hover, .bulle2:hover, .bulle3:hover, .bulle4:hover{
+    background-color: rgba(126, 126, 126, 0.726)!important;
+}
 .bulle1, .bulle2, .bulle3, .bulle4{
     height: 15px;
     width: 15px;
     border-radius: 15px;
     background-color: rgb(66, 66, 66);
 }
-.bulle1:hover, .bulle2:hover, .bulle3:hover, .bulle4:hover{
-    background-color: #9b9a9ac7;
+.bulle1{
+    background-color: #FFFFFF;
 }
 #select{
     background-color: #FFFFFF;
